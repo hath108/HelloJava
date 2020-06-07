@@ -9,5 +9,6 @@ public class HelloWorld {
     public static void printLines(){
         System.out.println("Hello World and Java!");
         System.out.println("Second line");
+        System.out.println("print lines");
     }
 }
