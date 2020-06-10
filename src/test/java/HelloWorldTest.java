@@ -10,11 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 class HelloWorldTest {
 
-    @Test
-    void getLuckyTest() {
-        System.out.println("getLuckyTest");
-        assertEquals(7, HelloWorld.getLucky(), "number is different");
-    }
 
     @Test
     void getHelloWorldTest(){
