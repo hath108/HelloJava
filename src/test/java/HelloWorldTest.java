@@ -1,8 +1,8 @@
-import static org.junit.jupiter.api.Assertions.*;
+
 
 class HelloWorldTest {
 
-    @org.junit.jupiter.api.Test
+    @Test(groups = { "include-test-one" })
     void testPrintText() {
         HelloWorld.printText("Hello some text");
 
