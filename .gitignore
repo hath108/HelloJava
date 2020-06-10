@@ -1,3 +1,2 @@
-target/maven-status/
-target/test-classes/
+target
 .gitignore
